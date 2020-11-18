@@ -1,0 +1,89 @@
+/* navbar color */
+.navbar-custom { 
+    background-color: rgb(204, 85, 0) !important; 
+}
+
+/* navbar-brand text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(white);
+}
+
+/* text color change for active links when hovered over*/
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: white;
+}
+
+/* drop down text formatting */
+.navbar-custom .dropdown-item {
+    color: black;
+}
+
+/* drop down highlight formatting when hovered over */
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: #333333;
+    background-color: rgb(186, 197, 197);
+}
+
+/* background color for main container on landing page*/
+.col-md-8,.col-sm-12 {
+    background-color: white;
+}
+
+/* background color for vizualizations container */
+.col-md-4,.col-sm-12 {
+    background-color: white;
+}
+
+/* font color for titles in each page */
+.h1 {
+    color: rgb(204, 85, 0); 
+}
+
+/* font folor for visualzation title on each page */
+.h2 {
+    color: rgb(204, 85, 0); 
+}
+
+/* background color to differ from containers */
+body { 
+    padding-top: 130px;
+    background-color: white;
+}
+
+/* title font color and alignment for comparison page visualizations */
+.h3 {
+    color: rgb(204, 85, 0); 
+    text-align: center;
+}
+
+/* container color for comparisons page */
+#compbox {
+    background-color: white;
+}
+
+/* sizing and position for visualization box */
+.box {
+  float: right;
+  height: 300px;
+  width: 375px;
+  margin-bottom: 15px;
+  margin-left: 50px;
+  background-color: white;
+}
+
+/* highlights border of images when hovered over */
+.thumbnail:hover {
+  border: solid 5px rgb(204, 85, 0);
+  margin: -5px; 
+}
+
+/* Background color changes depending on screen width */
+@media screen and (max-width: 900px) {
+    body{
+        background-color: white;
+    }
+}
